@@ -1,0 +1,29 @@
+{
+  "name": "group-chat-app-real-time",
+  "version": "1.0.0",
+  "description": "real time group chat app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "harish patil",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1560.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "cron": "^3.1.6",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.9.1",
+    "nodemon": "^3.0.3",
+    "sequelize": "^6.36.0",
+    "uuid": "^9.0.1",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {}
+}
